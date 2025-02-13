@@ -10,6 +10,10 @@ while True:
     if user_choice == 'quit':
         break
 
+    if user_choice not in options:
+        print("Faça uma escolha válida!")
+        continue
+
     computer_choice = random.randint(0, 2)
     computer_option = options[computer_choice]
     print("O computador escolheu: " + computer_option)
