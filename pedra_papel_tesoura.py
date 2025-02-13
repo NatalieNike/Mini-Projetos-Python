@@ -13,4 +13,19 @@ while True:
     computer_choice = random.randint(0, 2)
     computer_option = options[computer_choice]
 
+    if user_choice == computer_option:
+        print("Empatou!")
+    elif user_choice == "pedra" and computer_option == "tesoura": 
+        print("Você ganhou!")
+        user_points += 1
+    elif user_choice == "papel" and computer_option == "pedra": 
+        print("Você ganhou!")
+        user_points += 1
+    elif user_choice == "tesoura" and computer_option == "papel": 
+        print("Você ganhou!")
+        user_points += 1
+    else:
+        print("Você perdeu!")
+        computer_points +=1
+
 print('Goodbye!')
