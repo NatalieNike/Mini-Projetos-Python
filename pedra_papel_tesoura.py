@@ -29,8 +29,8 @@ while True:
         print("Você perdeu!")
         computer_points +=1
 
-print("Sua pontuação: " + user_points)
-print("Pontuação do computador: " + computer_points)
+print("Sua pontuação: " + str(user_points))
+print("Pontuação do computador: " + str(computer_points))
 
 if user_points > computer_points:
     print("Vitória!!")
