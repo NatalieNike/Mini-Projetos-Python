@@ -26,5 +26,4 @@ while n_choices > 0:
         print("Digite apenas números!")
     n_choices -= 1
 
-teste
-testes
+teste1 teste3
