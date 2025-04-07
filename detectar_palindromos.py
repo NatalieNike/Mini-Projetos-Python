@@ -28,3 +28,5 @@ for word in words:
     print(word)
     print(is_palindrome_recursive(word))
     print("\n")
+
+    #teste teste teste
