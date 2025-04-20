@@ -27,9 +27,10 @@ livros = [
 ]
 # Vamos:
 # Consultar(todos)
+@app.route()
+def obter_livros():
+    return jsonify(livros)
 # Consultar(id)
 # Editar
 # Excluir
 
-#testetesteteste
-#committeste
